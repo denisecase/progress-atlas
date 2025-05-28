@@ -2,7 +2,7 @@
 
 > Explore global data trends and animated visualizations.
 
-> [**Watch the Life Expectancy Bar Chart Race** on YouTube](https://youtu.be/Kn0M-vOGjjI
+> [**Watch the Life Expectancy Bar Chart Race** on YouTube](https://youtu.be/Kn0M-vOGjjI)
 
 ## System Requirements
 This project is lightweight and runs well on most modern laptops. It does not require a GPU or high-end hardware.
