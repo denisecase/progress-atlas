@@ -1,5 +1,9 @@
 # progress-atlas
 
+> Explore global data trends and animated visualizations.
+
+> [**Watch the Life Expectancy Bar Chart Race** on YouTube](https://youtu.be/Kn0M-vOGjjI
+
 ## System Requirements
 This project is lightweight and runs well on most modern laptops. It does not require a GPU or high-end hardware.
 
@@ -60,3 +64,12 @@ git add .
 git commit -m "did this"
 git push -u origin main
 ```
+
+## Resulting Video
+
+Top 30 countries by life expectancy at birth from 1960 to 2022, visualized as a bar chart race.  
+Source: [World Bank Life Expectancy Data](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)
+
+[![Watch the video](https://img.youtube.com/vi/Kn0M-vOGjjI/hqdefault.jpg)](https://youtu.be/Kn0M-vOGjjI)
+
+
