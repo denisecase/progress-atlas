@@ -170,11 +170,17 @@ ipython
 # Core Jupyter functionality required for running notebooks in VS Code (50-60 MB).
 jupyter
 
-# Kernel interface for Jupyter notebooks (required for proper kernel registration)
+# Kernel interface for Jupyter notebooks, required for proper kernel registration (~5–10 MB).
 ipykernel
 
-# Interactive widgets (often used in notebooks).
+# Interactive widgets, often used in notebooks (~5–10 MB).
 ipywidgets
+
+# Core server needed by Voilà (~40–50 MB).
+notebook
+
+# Voilà turns notebooks into web apps, deploy for free on Binder (~30–40 MB).
+voila
 
 # ======================================================
 # EXCEL FILE READING AND WRITING
