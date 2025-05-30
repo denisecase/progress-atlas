@@ -1,7 +1,7 @@
 # progress-atlas
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](
-https://mybinder.org/v2/gh/denisecase/progress-atlas/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Fmy_notebook.ipynb)
+https://mybinder.org/v2/gh/denisecase/progress-atlas/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Flife_expectancy.ipynb)
 
 
 > Explore global data trends and animated visualizations.
