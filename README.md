@@ -1,7 +1,6 @@
 # progress-atlas
 
-[![Open in Binder](https://mybinder.org/badge_logo.svg)](
-https://mybinder.org/v2/gh/denisecase/progress-atlas/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Flife_expectancy.ipynb)
+[![Launch Life Expectancy Compare](https://img.shields.io/badge/Launch-Life_Expectancy_Compare-blue?logo=binder)](https://mybinder.org/v2/gh/denisecase/progress-atlas/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Flife_expectancy_compare.ipynb)
 
 
 > Explore global data trends and animated visualizations.
@@ -77,3 +76,29 @@ Source: [World Bank Life Expectancy Data](https://data.worldbank.org/indicator/S
 [![Watch the video](https://img.youtube.com/vi/Kn0M-vOGjjI/hqdefault.jpg)](https://youtu.be/Kn0M-vOGjjI)
 
 
+## Publishing Interactive Notebooks with Voilà
+
+This project uses Voilà to publish notebooks using interactive widgets (e.g., drop-downs). 
+
+**Try it on Binder**:  
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](
+https://mybinder.org/v2/gh/denisecase/progress-atlas/HEAD?urlpath=voila%2Frender%2Fnotebooks%2Flife_expectancy_compare.ipynb)
+
+### To run Voilà locally
+
+From the project root, run the following command to launch a notebook as a standalone interactive web app.
+
+```bash
+voila notebooks/life_expectancy_compare.ipynb
+```
+
+### Development Notes
+
+To publish with Voilà, add `notebook` and `voila` packages to requirements.txt.
+This may affect how charts are rendered during development especially in VS Code. 
+For example, fig.show() may cause charts to appear multiple times in VS Code notebooks after these two packages are installed.
+When publishing with interactive widgets, it is better to return `fig` from a function (e.g., `get_chart()`) and let let Jupyter/Voilà handle the rendering with something like: 
+
+```Python
+widgets.interactive_output(get_chart, {...})
+```

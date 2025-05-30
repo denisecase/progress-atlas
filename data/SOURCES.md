@@ -2,7 +2,7 @@
 
 ## Life Expectancy
 - Source: World Bank
-- Title: 
+- Title: Life Expectancy at Birth (1960-2022)
 - URL: https://data.worldbank.org/indicator/SP.DYN.LE00.IN
 - Downloaded: 2025-05-28
 - Format: CSV
